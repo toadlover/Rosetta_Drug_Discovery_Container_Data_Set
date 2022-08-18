@@ -1,7 +1,6 @@
--parser:protocol /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/s_lib/scripts/lite_enzdes.xml
--s /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/suvo_testing/7l1u_receptor_only.pdb
--params_directory_path /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/s_lib/scripts/suvo_sort_.88_2022-03-28_14:37:25.598637/0/0/test_params/ 
--motif_filename /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/benchmark/files/discovery_files/condensed_motif_list_08_06_21.motifs
+-s 7l1u_receptor_only.pdb
+-params_directory_path test_params/ 
+-motif_filename small_motifs_list.motifs
 -protein_discovery_locus 227
 -constrain_relax_to_start_coords
 -fa_atr_cutoff = 150
