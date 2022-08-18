@@ -1,9 +1,15 @@
+#target protein pdb
 -s 7l1u_receptor_only.pdb
+#path to param files
 -params_directory_path test_params/ 
+#path to motifs file
 -motif_filename small_motifs_list.motifs
+#rosetta residue index of anchor residue
 -protein_discovery_locus 227
--constrain_relax_to_start_coords
+#fa score cutoffs
 -fa_atr_cutoff = 150
 -fa_rep_cutoff = 150
+#free energy scoring cutoff
 -ddg_cutoff = -9
+#selection of number of best placements to keep (based on ddg; 0 indicates to keep all)
 -best_pdbs_to_keep = 0
